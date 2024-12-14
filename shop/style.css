@@ -1,0 +1,758 @@
+.desktop {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+    background-color: #f8f9fa;
+    overflow: hidden;
+    width: 1440px;
+    height: 2268px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 1446px;
+    height: 2202px;
+    top: 66px;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1446px;
+    height: 2202px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .div {
+    position: absolute;
+    width: 1296px;
+    height: 203px;
+    top: 0;
+    left: 72px;
+  }
+  
+  .desktop .gambar {
+    position: absolute;
+    width: 179px;
+    height: 180px;
+    top: 23px;
+    left: 233px;
+  }
+  
+  .desktop .header {
+    display: flex;
+    width: 1296px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0px 16px 12px #00000008;
+  }
+  
+  .desktop .img {
+    position: relative;
+    width: 159px;
+    height: 30px;
+  }
+  
+  .desktop .menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--defaultblack);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: var(--orange-500);
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--orange-500);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--defaultblack);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .input-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .input {
+    width: 280px;
+    height: 40px;
+    padding: 9px 5px 9px 16px;
+    position: relative;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    border: none;
+    flex: 1;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000099;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .desktop .icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .image {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+  }
+  
+  .desktop .gambar-2 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    top: 117px;
+    left: 499px;
+    object-fit: cover;
+  }
+  
+  .desktop .frame {
+    position: absolute;
+    width: 555px;
+    height: 486px;
+    top: 117px;
+    left: 813px;
+  }
+  
+  .desktop .overlap-group-2 {
+    position: relative;
+    height: 539px;
+    top: 73px;
+  }
+  
+  .desktop .gambar-3 {
+    position: absolute;
+    width: 555px;
+    height: 532px;
+    top: 7px;
+    left: 0;
+  }
+  
+  .desktop .gambar-4 {
+    position: absolute;
+    width: 390px;
+    height: 373px;
+    top: 103px;
+    left: 81px;
+  }
+  
+  .desktop .jejak-kaki {
+    position: absolute;
+    width: 465px;
+    height: 348px;
+    top: 65px;
+    left: 41px;
+    object-fit: cover;
+  }
+  
+  .desktop .gambar-5 {
+    position: absolute;
+    width: 367px;
+    height: 415px;
+    top: 0;
+    left: 114px;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 1446px;
+    height: 1676px;
+    top: 526px;
+    left: 0;
+  }
+  
+  .desktop .gambar-6 {
+    position: absolute;
+    width: 162px;
+    height: 157px;
+    top: 0;
+    left: 443px;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 1451px;
+    top: 77px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .desktop .card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 167px;
+    left: 72px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .exclusive-wrapper {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-11.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .img-2 {
+    position: absolute;
+    width: 306px;
+    height: 306px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .text-icon {
+    position: relative;
+    width: 306px;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    top: 20px;
+    left: 19px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: relative;
+    width: fit-content; /* Ini sudah benar agar ukuran mengikuti panjang teks */
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+    padding: 20px; /* Menambahkan sedikit padding agar teks tidak terlalu rapat ke sisi elemen */
+    text-align: left; /* Menyusun teks agar berada di kiri */
+}
+  
+  .desktop .card-2 {
+    top: 167px;
+    left: 402px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .element-wrapper {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-10.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-3 {
+    top: 167px;
+    left: 732px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-wrapper {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-3.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .text-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    top: 20px;
+    left: 18px;
+  }
+  
+  .desktop .card-4 {
+    top: 167px;
+    left: 1062px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-3 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .text-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    top: 20px;
+    left: 18px;
+  }
+  
+  .desktop .card-5 {
+    top: 589px;
+    left: 72px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-4 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-8.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-6 {
+    top: 589px;
+    left: 402px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-5 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-5.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-7 {
+    top: 589px;
+    left: 732px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-6 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-2.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-8 {
+    top: 589px;
+    left: 1062px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-7 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-4.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-9 {
+    top: 1011px;
+    left: 72px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .image-wrapper {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-9.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-10 {
+    top: 1011px;
+    left: 402px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-8 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/image.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-11 {
+    top: 1011px;
+    left: 732px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-9 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-6.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .card-12 {
+    top: 1011px;
+    left: 1062px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--gray-100);
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .img-10 {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    background-image: url(./img/img-7.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .footer {
+    position: absolute;
+    width: 1446px;
+    height: 174px;
+    top: 1502px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .desktop .overlap-3 {
+    position: relative;
+    width: 1440px;
+    height: 174px;
+    background-color: #343b8b;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    width: 155px;
+    top: 74px;
+    left: 391px;
+    font-family: "ADLaM Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    width: 120px;
+    top: 74px;
+    left: 670px;
+    font-family: "ADLaM Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-8 {
+    position: absolute;
+    width: 176px;
+    top: 74px;
+    left: 910px;
+    font-family: "ADLaM Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .gambar-7 {
+    position: absolute;
+    width: 236px;
+    height: 45px;
+    top: 65px;
+    left: 55px;
+  }
+  
+  .desktop .group {
+    position: absolute;
+    width: 182px;
+    height: 35px;
+    top: 69px;
+    left: 1173px;
+  }
+  
+  .desktop .image-2 {
+    position: absolute;
+    width: 47px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .image-3 {
+    position: absolute;
+    width: 47px;
+    height: 35px;
+    top: 0;
+    left: 47px;
+    object-fit: cover;
+  }
+  
+  .desktop .image-4 {
+    position: absolute;
+    width: 43px;
+    height: 35px;
+    top: 0;
+    left: 94px;
+    object-fit: cover;
+  }
+  
+  .desktop .image-5 {
+    position: absolute;
+    width: 43px;
+    height: 35px;
+    top: 0;
+    left: 139px;
+    object-fit: cover;
+  }
+  
+  .desktop .text-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 279px;
+    left: 89px;
+  }
+  
+  .desktop .pet-shop {
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--orange-500);
+    font-size: 16px;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    letter-spacing: 0;
+  }
+  
+  .desktop .the-friendly-and {
+    position: relative;
+    width: 647px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 54px;
+    letter-spacing: 0;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  a {
+    text-decoration: none; /* Menghilangkan underline */
+    color: inherit; /* Menyelaraskan warna dengan teks di sekitarnya */
+  }
